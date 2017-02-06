@@ -21,6 +21,31 @@ namespace UnitConverter
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            //For visual testing
+            beginningUnitDrop.Items.Add("Starting Unit");
+            endingUnitDrop.Items.Add("Ending Unit");
+            outputLabel.Text = "someValue";
+            //Need to bind drop down boxes to database query
+
         }
+
+        protected void calculateButton_Click(object sender, EventArgs e)
+        {
+            //I think this logic should work once we get the pull method working
+            /*
+            double startValue= double.Parse(userInput.Text);
+            double startValueInCm = startValue * pullValue(beginningUnitDrop.Text);
+            double finalValue = startValueInCm / pullValue(endingUnitDrop.Text);
+            */
+        }
+
+        private double pullValue(String unit)
+        {
+            double unitValue = 0;
+            //This needs to run a query on the database to get the value of the unit and return it
+            return unitValue;
+        }
+
+        
     }
 }
