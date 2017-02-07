@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 /*Contributers:
  * 
  * Stevan Wilson
- * 
+ * Elric Ekstrand
  * 
  * 
  * 
