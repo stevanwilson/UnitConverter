@@ -1,2 +1,6 @@
-﻿body {
+.space {
+    /* Adds a space at the bottom of the div
+        Made by: Matthew Rozendaal
+    */
+    padding-bottom: .8em
 }
