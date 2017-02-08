@@ -8,9 +8,9 @@ using System.Web.UI.WebControls;
 /*Contributers:
  * 
  * Stevan Wilson
- * 
- * Elric Ekstrand
- * 
+ * Matthew Rozendaal-page Formatting
+ * David Gorden - Database
+ * Elric Ekstrand - Page Formatting
  * 
  */
 
