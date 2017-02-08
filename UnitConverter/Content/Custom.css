@@ -2,5 +2,11 @@
     /* Adds a space at the bottom of the div
         Made by: Matthew Rozendaal
     */
-    padding-bottom: .8em
+    padding-bottom: .8em;
+}
+.topSpace{
+    padding-top: .8em;
+}
+h1{
+    color:forestgreen;
 }

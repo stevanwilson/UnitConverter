@@ -13,11 +13,10 @@
 </head>
 <body class="container">
     <form id="default" runat="server">
-        <div class="space">
-            <h1 class="text-center">Unit Conversion</h1>
-        </div>
+            <h1 class="text-center space topSpace">Unit Conversion</h1>
+        
     <div class="space">
-        <div class="text-center form-control">
+        <div class="text-center">
             <asp:DropDownList ID="beginningUnitDrop" runat="server"></asp:DropDownList>
             <asp:TextBox ID="userInput" runat="server"></asp:TextBox>
              = 
@@ -25,9 +24,9 @@
             <asp:DropDownList ID="endingUnitDrop" runat="server"></asp:DropDownList>
         </div>
     </div>
-    <div class="space">
+    <div class="space topSpace">
         <div class="text-center"> 
-            <asp:Button ID="calculateButton" runat="server" Text="Calculate" OnClick="calculateButton_Click" />
+            <asp:Button ID="calculateButton" runat="server" Text="Calculate" OnClick="calculateButton_Click" CssClass="btn-success" />
         </div>
     </div>
     </form>
