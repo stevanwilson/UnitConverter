@@ -8,10 +8,11 @@ using System.Web.UI.WebControls;
 /*Contributers:
  * 
  * Stevan Wilson
+ * Matthew Rozendaal-page Formatting
+ * David Gorden - Database
+ * Elric Ekstrand - Page Formatting
  * Ethan Sutherland
- * 
- * 
- * 
+ *
  */
 
 namespace UnitConverter

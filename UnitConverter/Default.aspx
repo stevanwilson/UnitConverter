@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="UnitConverter.Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="UnitConverter.Default" %>
 
 <!DOCTYPE html>
 
@@ -13,22 +13,22 @@
 </head>
 <body class="container">
     <form id="default" runat="server">
-        <h1 class="text-center">Unit Conversion</h1>
-        <div><br /></div>
-                <!--Rebecca doesn't like the use of breaks, however i wanted
-                a gap between the header and the div for aesthetic reasons and this seemed the best method. 
-                However if someone can think of a better way please fix it. -->
-    <div class="text-center">
-        <asp:DropDownList ID="beginningUnitDrop" runat="server"></asp:DropDownList>
-        <asp:TextBox ID="userInput" runat="server"></asp:TextBox>
-         = 
-        <asp:Label ID="outputLabel" runat="server"></asp:Label>
-        <asp:DropDownList ID="endingUnitDrop" runat="server"></asp:DropDownList>
-    </div>
-        <div><br /></div><!--Another break -->
-        <div class="text-center"> 
-            <asp:Button ID="calculateButton" runat="server" Text="Calculate" OnClick="calculateButton_Click" />
+            <h1 class="text-center space topSpace">Unit Conversion</h1>
+        
+    <div class="space">
+        <div class="text-center">
+            <asp:DropDownList ID="beginningUnitDrop" runat="server"></asp:DropDownList>
+            <asp:TextBox ID="userInput" runat="server"></asp:TextBox>
+             = 
+            <asp:Label ID="outputLabel" runat="server"></asp:Label>
+            <asp:DropDownList ID="endingUnitDrop" runat="server"></asp:DropDownList>
         </div>
+    </div>
+    <div class="space topSpace">
+        <div class="text-center"> 
+            <asp:Button ID="calculateButton" runat="server" Text="Calculate" OnClick="calculateButton_Click" CssClass="btn-success" />
+        </div>
+    </div>
     </form>
 </body>
 </html>
