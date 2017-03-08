@@ -31,3 +31,36 @@ c:\users\user\documents\visual studio 2015\Projects\UnitConverter\UnitConverter\
 c:\users\user\documents\visual studio 2015\Projects\UnitConverter\UnitConverter\obj\Debug\UnitConverter.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2015\Projects\UnitConverter\UnitConverter\obj\Debug\UnitConverter.dll
 c:\users\user\documents\visual studio 2015\Projects\UnitConverter\UnitConverter\obj\Debug\UnitConverter.pdb
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\ApplicationInsights.config
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\csc.exe
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\vbc.exe
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\VBCSCompiler.exe
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\UnitConverter.dll.config
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\UnitConverter.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\UnitConverter.pdb
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.Web.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.Web.xml
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\obj\Debug\UnitConverter.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\obj\Debug\UnitConverter.dll
+C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\obj\Debug\UnitConverter.pdb

@@ -13,15 +13,17 @@
 </head>
 <body class="container">
     <form id="default" runat="server">
-            <h1 class="text-center space topSpace">Unit Conversion</h1>
+            <h1 class="text-center space topSpace">
+            <asp:SqlDataSource ID="LengthConverts" runat="server" ConnectionString="<%$ ConnectionStrings:UnitLengthConversionDBConnectionString %>" SelectCommand="SELECT [ConName], [ToMeter] FROM [LengthConversion]"></asp:SqlDataSource>
+                Unit Conversion</h1>
         
     <div class="space">
         <div class="text-center">
-            <asp:DropDownList ID="beginningUnitDrop" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="beginningUnitDrop" runat="server" DataSourceID="LengthConverts" DataTextField="ConName" DataValueField="ToMeter"></asp:DropDownList>
             <asp:TextBox ID="userInput" runat="server"></asp:TextBox>
              = 
-            <asp:Label ID="outputLabel" runat="server"></asp:Label>
-            <asp:DropDownList ID="endingUnitDrop" runat="server"></asp:DropDownList>
+            <asp:Label ID="outputLabel" runat="server" Text="answer"></asp:Label>
+            <asp:DropDownList ID="endingUnitDrop" runat="server" DataSourceID="LengthConverts" DataTextField="ConName" DataValueField="ToMeter"></asp:DropDownList>
         </div>
     </div>
     <div class="space topSpace">

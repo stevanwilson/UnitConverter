@@ -12,7 +12,6 @@ using System.Web.UI.WebControls;
  * David Gorden - Database
  * Elric Ekstrand - Page Formatting
  * Ethan Sutherland
- *
  */
 
 namespace UnitConverter
@@ -21,13 +20,14 @@ namespace UnitConverter
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            /*
             //For visual testing
             beginningUnitDrop.Items.Add("Starting Unit");
             endingUnitDrop.Items.Add("Ending Unit");
             outputLabel.Text = "someValue";
+            */
             //Need to bind drop down boxes to database query
-
+            //load with first 
         }
 
         protected void calculateButton_Click(object sender, EventArgs e)
@@ -38,15 +38,24 @@ namespace UnitConverter
             double startValueInCm = startValue * pullValue(beginningUnitDrop.Text);
             double finalValue = startValueInCm / pullValue(endingUnitDrop.Text);
             */
+            //Programmed by Matthew Rozendaal
+            //Variables
+            double startValue;
+            double startUnit;
+            double endUnit;
+            double output;
+            //get User input
+            double.TryParse(userInput.Text, out startValue);
+            //Get starting unit
+            double.TryParse(beginningUnitDrop.SelectedValue, out startUnit); 
+            //get Ending unit
+            double.TryParse(endingUnitDrop.SelectedValue, out endUnit);
+           //Find output value
+           output = (startValue /startUnit) * endUnit;
+            //output result
+           outputLabel.Text = output.ToString() + " SV:" + startValue + " SU" + startUnit
+              + " EU: " + endUnit;
+               
         }
-
-        private double pullValue(String unit)
-        {
-            double unitValue = 0;
-            //This needs to run a query on the database to get the value of the unit and return it
-            return unitValue;
-        }
-
-        
     }
 }
