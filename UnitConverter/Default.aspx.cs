@@ -26,7 +26,13 @@ namespace UnitConverter
 
         protected void SomethingChanged(object sender, EventArgs e)
         {
-            Calculate();
+            //found out that changing the drops without having numbers in the text boxes caused it to crash
+            double testfigure;
+            if (double.TryParse(userInput.Text,out testfigure))
+            {
+                Calculate();
+            }
+            
         }
 
         

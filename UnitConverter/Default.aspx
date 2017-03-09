@@ -20,13 +20,13 @@
     <div class="space">
         <div class="text-center">
             <asp:DropDownList ID="beginningUnitDrop" runat="server" DataSourceID="LengthConverts" DataTextField="ConName" DataValueField="ToMeter" 
-                OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true"></asp:DropDownList>
+                OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true" ValidationGroup="left"></asp:DropDownList>
             
-            <asp:TextBox ID="userInput" runat="server" OnTextChanged="SomethingChanged" AutoPostBack="true" CausesValidation="true"></asp:TextBox>
+            <asp:TextBox ID="userInput" runat="server" OnTextChanged="SomethingChanged" AutoPostBack="true" CausesValidation="true" ValidationGroup="left"></asp:TextBox>
              = 
-            <asp:TextBox ID="userOutput" runat="server" OnTextChanged="userOutput_TextChanged" AutoPostBack="true" CausesValidation="true"></asp:TextBox>
+            <asp:TextBox ID="userOutput" runat="server" OnTextChanged="userOutput_TextChanged" AutoPostBack="true" CausesValidation="true" ValidationGroup="right"></asp:TextBox>
             <asp:DropDownList ID="endingUnitDrop" runat="server" DataSourceID="LengthConverts" DataTextField="ConName"
-                 OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true" DataValueField="ToMeter"></asp:DropDownList>
+                 OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true" DataValueField="ToMeter" ValidationGroup="left"></asp:DropDownList>
         </div>
     </div>
     <div class="space topSpace">
