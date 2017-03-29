@@ -14,19 +14,22 @@
 <body class="container">
     <form id="default" runat="server">
             <h1 class="text-center space topSpace">
-            <asp:SqlDataSource ID="LengthConverts" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;|DataDirectory|\Database\UnitConversionDB.mdf&quot;;Integrated Security=True;Connect Timeout=30" SelectCommand="SELECT [ConName], [ToMeter] FROM [LengthConversion]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+            
                 Unit Conversion</h1>
+        <div class="text-center space">
+            <asp:DropDownList ID="tableSelection" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DatabaseChange"></asp:DropDownList>
+        </div>
         
-    <div class="space">
+    <div class="space topSpace">
         <div class="text-center">
-            <asp:DropDownList ID="beginningUnitDrop" runat="server" DataSourceID="LengthConverts" DataTextField="ConName" DataValueField="ToMeter" 
+            <asp:DropDownList ID="beginningUnitDrop" runat="server" DataTextField="Unit" DataValueField="Value" 
                 OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true" ValidationGroup="left"></asp:DropDownList>
             
             <asp:TextBox ID="userInput" runat="server" OnTextChanged="SomethingChanged" AutoPostBack="true" CausesValidation="true" ValidationGroup="left"></asp:TextBox>
              = 
             <asp:TextBox ID="userOutput" runat="server" OnTextChanged="userOutput_TextChanged" AutoPostBack="true" CausesValidation="true" ValidationGroup="right"></asp:TextBox>
-            <asp:DropDownList ID="endingUnitDrop" runat="server" DataSourceID="LengthConverts" DataTextField="ConName"
-                 OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true" DataValueField="ToMeter" ValidationGroup="left"></asp:DropDownList>
+            <asp:DropDownList ID="endingUnitDrop" runat="server" DataTextField="Unit"
+                 OnSelectedIndexChanged="SomethingChanged" AutoPostBack="true" DataValueField="Value" ValidationGroup="left"></asp:DropDownList>
         </div>
     </div>
     <div class="space topSpace">
@@ -38,6 +41,20 @@
             <asp:CompareValidator ID="NumberValidatorOutput" runat="server" CssClass="error"
                 ControlToValidate="userOutput"  Type="Double" Display="Dynamic"
                 ErrorMessage="You must enter a valid real number." Operator="DataTypeCheck"></asp:CompareValidator>
+        </div>
+
+        <div>
+            <!-- All Data Sources -->
+            <asp:SqlDataSource ID="Length" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;|DataDirectory|\Database\LengthDatabase.mdf&quot;;Integrated Security=True;Connect Timeout=30" 
+                SelectCommand="SELECT [LengthUnit] Unit, [ToMeter] Value FROM [LengthConversion]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+
+            <asp:SqlDataSource ID="Area" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;|DataDirectory|\Database\LengthDatabase.mdf&quot;;Integrated Security=True;Connect Timeout=30" 
+                SelectCommand="SELECT [AreaUnit] Unit, [ToCm2] Value FROM [AreaTable]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+
+            <asp:SqlDataSource ID="Volume" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;|DataDirectory|\Database\LengthDatabase.mdf&quot;;Integrated Security=True;Connect Timeout=30" 
+                SelectCommand="SELECT [VolumeUnit] Unit, [ToCm3] Value FROM [VolumeTable]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+
+
         </div>
     </div>
     </form>

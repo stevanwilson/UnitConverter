@@ -94,6 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database\DatabaseSelectAll.sql" />
+    <Content Include="App_Data\Database\dbo.LengthConversion.data.sql" />
+    <Content Include="App_Data\Database\LengthDatabase.mdf" />
+    <Content Include="App_Data\Database\LengthDatabase_log.ldf">
+      <DependentUpon>LengthDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Database\LengthPopulateQuery.sql" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

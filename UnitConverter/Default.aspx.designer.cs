@@ -22,13 +22,13 @@ namespace UnitConverter {
         protected global::System.Web.UI.HtmlControls.HtmlForm @default;
         
         /// <summary>
-        /// LengthConverts control.
+        /// tableSelection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource LengthConverts;
+        protected global::System.Web.UI.WebControls.DropDownList tableSelection;
         
         /// <summary>
         /// beginningUnitDrop control.
@@ -92,5 +92,32 @@ namespace UnitConverter {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator NumberValidatorOutput;
+        
+        /// <summary>
+        /// Length control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource Length;
+        
+        /// <summary>
+        /// Area control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource Area;
+        
+        /// <summary>
+        /// Volume control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource Volume;
     }
 }

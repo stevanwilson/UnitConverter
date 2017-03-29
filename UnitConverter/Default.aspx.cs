@@ -20,7 +20,24 @@ namespace UnitConverter
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                //Add all data source id's to the drop down menu
+                tableSelection.Items.Add("Length");
+                tableSelection.Items.Add("Area");
+                tableSelection.Items.Add("Volume");
+
+                //Sets default Tables
+                beginningUnitDrop.DataSourceID = tableSelection.SelectedValue;
+                endingUnitDrop.DataSourceID = tableSelection.SelectedValue;
+
+                
+                
+            }
+
             
+
+
         }
         
 
@@ -56,6 +73,15 @@ namespace UnitConverter
             double output = (startValue / startUnit) * endUnit;
             userInput.Text = output.ToString();
 
+        }
+
+
+        protected void DatabaseChange(object sender, EventArgs e)
+        {
+            userInput.Text = "";
+            userOutput.Text = "";
+            beginningUnitDrop.DataSourceID = tableSelection.SelectedValue;
+            endingUnitDrop.DataSourceID = tableSelection.SelectedValue;
         }
     }
 }
