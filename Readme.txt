@@ -6,7 +6,25 @@ Create GUI
 	-I also made sure to include the Twitter bootstrap for the project. Whether we use it is up to everyone else.
 	-I think after we get the project working, we can begin to refine the look and feel of the gui, as well as implement an autocalculate feature whenever the text fields are changed much like the google one.
 	
+POTENTIAL IDEAS: (For those who don't know what they can work on)
+http://www.unitconverters.net/  (Check this site out)
+Add more conversions in general. 
+Conversion checking. We need someone to go through each possiblitity on each side and check to see if the numbers are correct.
 
+Conversions we could add/modify: (All of these are avaiable through google calc)
+1. Area
+2. Data Transfer Rate (Bits per second to Kilobits per second)
+3. Digital Storage (byte to kilobyte)
+4. Energy (Joules to Kilowatt Hour)
+5. Sound Frequencies
+6. Fuel Mileage
+7. Mass (Pound to Ounce)
+8. Angles (Sin Cos Tan) (This might require extra work)
+9. Pressure
+10. Speed
+11. Temperature (This might be the easiest of them all)
+12. Time
+13. Volume 
 
 Create Database
 	-perhaps we can use objects for each unit type with 2 fields [name,lengthInCm]
