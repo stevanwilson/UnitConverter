@@ -26,6 +26,8 @@ namespace UnitConverter
                 tableSelection.Items.Add("Length");
                 tableSelection.Items.Add("Area");
                 tableSelection.Items.Add("Volume");
+                tableSelection.Items.Add("Time");
+                tableSelection.Items.Add("Byte");
 
                 //Sets default Tables
                 beginningUnitDrop.DataSourceID = tableSelection.SelectedValue;
