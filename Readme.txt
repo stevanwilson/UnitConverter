@@ -14,7 +14,7 @@ Conversion checking. We need someone to go through each possiblitity on each sid
 Conversions we could add/modify: (All of these are avaiable through google calc)
 1. Area
 2. Data Transfer Rate (Bits per second to Kilobits per second)
-3. Digital Storage (byte to kilobyte)
+3. Digital Storage (byte to kilobyte) - "DAVGOR"
 4. Energy (Joules to Kilowatt Hour)
 5. Sound Frequencies
 6. Fuel Mileage
@@ -23,7 +23,7 @@ Conversions we could add/modify: (All of these are avaiable through google calc)
 9. Pressure
 10. Speed
 11. Temperature (This might be the easiest of them all)
-12. Time
+12. Time - "DAVGOR"
 13. Volume 
 
 Create Database
