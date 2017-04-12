@@ -60,6 +60,9 @@
             <asp:SqlDataSource ID="Byte" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;|DataDirectory|\Database\LengthDatabase.mdf&quot;;Integrated Security=True;Connect Timeout=30" 
                 SelectCommand="SELECT [ByteUnit] Unit, [ToByte] Value FROM [ByteTable]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
 
+            <asp:SqlDataSource ID="Temperature" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;|DataDirectory|\Database\LengthDatabase.mdf&quot;;Integrated Security=True;Connect Timeout=30" 
+                SelectCommand="SELECT [TemperatureUnit] Unit, [ToTemp] Value FROM [TemperatureTable]" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+
         </div>
     </div>
     </form>
