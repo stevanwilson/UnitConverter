@@ -64,3 +64,36 @@ C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\bin\Microsoft.CodeDo
 C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\obj\Debug\UnitConverter.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\obj\Debug\UnitConverter.dll
 C:\Users\Owner\Documents\GitHub\UnitConverter\UnitConverter\obj\Debug\UnitConverter.pdb
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\ApplicationInsights.config
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\csc.exe
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\vbc.exe
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\VBCSCompiler.exe
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\UnitConverter.dll.config
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\UnitConverter.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\UnitConverter.pdb
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.Web.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.ApplicationInsights.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.Web.xml
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.ApplicationInsights.xml
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\obj\Debug\UnitConverter.csprojResolveAssemblyReference.cache
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\obj\Debug\UnitConverter.dll
+C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\obj\Debug\UnitConverter.pdb

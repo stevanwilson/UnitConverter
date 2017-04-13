@@ -28,21 +28,14 @@ namespace UnitConverter
                 tableSelection.Items.Add("Volume");
                 tableSelection.Items.Add("Time");
                 tableSelection.Items.Add("Byte");
+                tableSelection.Items.Add("Temperature");
 
                 //Sets default Tables
                 beginningUnitDrop.DataSourceID = tableSelection.SelectedValue;
                 endingUnitDrop.DataSourceID = tableSelection.SelectedValue;
-
-                
-                
             }
-
-            
-
-
         }
         
-
         protected void SomethingChanged(object sender, EventArgs e)
         {
             //found out that changing the drops without having numbers in the text boxes caused it to crash
@@ -60,7 +53,27 @@ namespace UnitConverter
             double startValue = double.Parse(userInput.Text);
             double startUnit = double.Parse(beginningUnitDrop.SelectedValue);
             double endUnit = double.Parse(endingUnitDrop.SelectedValue);
-            double output= (startValue / startUnit) * endUnit;
+            double output = 0;
+
+            if (tableSelection.SelectedValue == "Temperature")
+            {
+                if(startUnit == 0 && endUnit == 1)
+                {
+                    output = (startValue * 9.0 / 5.0) + 32;      
+                }
+                else if(startUnit == 1 && endUnit == 0)
+                {
+                    output = (startValue - 32) * (5.0 / 9.0);
+                }
+                else
+                {
+                    output = startValue;
+                }
+            }
+            else
+            {
+                output = (startValue / startUnit) * endUnit;
+            }
             userOutput.Text = output.ToString();
         }
 
@@ -72,8 +85,28 @@ namespace UnitConverter
             double startValue = double.Parse(userOutput.Text);
             double startUnit = double.Parse(endingUnitDrop.SelectedValue);
             double endUnit = double.Parse(beginningUnitDrop.SelectedValue);
-            double output = (startValue / startUnit) * endUnit;
-            userInput.Text = output.ToString();
+            double output = 0;
+
+            if (tableSelection.SelectedValue == "Temperature")
+            {
+                if (startUnit == 0 && endUnit == 1)
+                {
+                    output = (startValue * 9.0 / 5.0) + 32;
+                }
+                else if (startUnit == 1 && endUnit == 0)
+                {
+                    output = (startValue - 32) * (5.0 / 9.0);
+                }
+                else
+                {
+                    output = startValue;
+                }
+            }
+            else
+            {
+                output = (startValue / startUnit) * endUnit;
+            }
+            userOutput.Text = output.ToString();
 
         }
 
