@@ -18,7 +18,7 @@ Conversions we could add/modify: (All of these are avaiable through google calc)
 7. Mass (Pound to Ounce)
 8. Angles (Sin Cos Tan) (This might require extra work)
 9. Pressure
-10. Speed
+10. Speed - Matthew Rozendaal (Hydrplane72)
 11. Temperature (This might be the easiest of them all)
 12. Time - "DAVGOR"
 13. Volume 
