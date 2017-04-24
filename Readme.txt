@@ -19,7 +19,7 @@ Conversions we could add/modify: (All of these are avaiable through google calc)
 8. Angles (Sin Cos Tan) (This might require extra work)
 9. Pressure
 10. Speed - Matthew Rozendaal (Hydrplane72)
-11. Temperature (This might be the easiest of them all)
+11. Temperature (This might be the easiest of them all) - Ethan Sutherland
 12. Time - "DAVGOR"
 13. Volume 
 
