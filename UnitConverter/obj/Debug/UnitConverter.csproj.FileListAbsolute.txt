@@ -97,3 +97,36 @@ C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\bin
 C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\obj\Debug\UnitConverter.csprojResolveAssemblyReference.cache
 C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\obj\Debug\UnitConverter.dll
 C:\Users\wolff\OneDrive\School Stuff\Advanced C#\UnitConverter\UnitConverter\obj\Debug\UnitConverter.pdb
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\obj\Debug\UnitConverter.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\obj\Debug\UnitConverter.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\obj\Debug\UnitConverter.pdb
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\ApplicationInsights.config
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\csc.exe
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\vbc.exe
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\UnitConverter.dll.config
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\UnitConverter.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\UnitConverter.pdb
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.Web.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.Web.xml
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alex\Downloads\UnitConverter-master (3)\UnitConverter-master\UnitConverter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

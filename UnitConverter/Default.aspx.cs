@@ -12,6 +12,7 @@ using System.Web.UI.WebControls;
  * David Gorden - Database
  * Elric Ekstrand - Page Formatting
  * Ethan Sutherland
+ * Alexander McKinney - Page Formatting
  */
 
 namespace UnitConverter
@@ -20,6 +21,8 @@ namespace UnitConverter
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            timelabel.Text = DateTime.Now.ToLongDateString();
+            timelabel1.Text = DateTime.Now.ToLongTimeString();
             if (!IsPostBack)
             {
                 //Add all data source id's to the drop down menu

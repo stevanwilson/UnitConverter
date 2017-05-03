@@ -14,9 +14,11 @@
 <body class="container">
     <form id="default" runat="server">
             <h1 class="text-center space topSpace">
-            
                 Unit Conversion</h1>
         <div class="text-center space">
+               <asp:Label ID="timelabel" runat ="server"></asp:Label>
+               <asp:Label ID="timelabel1" runat="server"></asp:Label>
+            </br>
             <asp:DropDownList ID="tableSelection" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DatabaseChange"></asp:DropDownList>
         </div>
         
